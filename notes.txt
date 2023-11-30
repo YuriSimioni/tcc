@@ -1,17 +1,1 @@
-onibus
-id
-nome
-status
-regiao
-
-
-
-'Terminal x Vila Esperença', 'Terminal x Jardim das Laranjeiras / Santa Isabel', 'Terminal x J Laranjeiras / Santa Isabel Via Esperança', 'Terminal x Cachoeira de Emas / Santa Fé', 'Terminal x Santa Fé', 'Terminal x Vila São Pedro', 'Terminal x Jardim Milenium Via Vila São Pedro', 'Terminal x Vila São Pedro / Cidade Jardim', 'Terminal x Taboão', 'Terminal x Jardim Moruimbi', 'Terminal x Distrito Industrial', 'Terminal x AFA Via Psicultura', 'Terminal x AFA / Vila dos Sargentos'
-
-
-
-
-usuario
-    1 admin
-    0 motorista
-    
+notes
