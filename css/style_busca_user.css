@@ -1,0 +1,292 @@
+#container {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: var(--cor6);
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#container h1 {
+    color: var(--cor2);
+}
+#box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+table {
+    width: 90%;
+    height: auto;
+    border: 2px solid var(--cor2);
+    border-radius: 4px;
+    border-collapse: collapse;
+}
+.direita {
+    border-right: 1px solid white;
+}
+.esquerda {
+    border-left: 1px solid white;
+}
+
+table thead tr {
+    background: var(--cor2);
+
+}
+table thead tr th {
+    padding: 10px;
+    min-width: 70px;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+table tbody tr td{
+    padding: 7px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+.btn {
+    font-weight: 400;
+    width: 40%;
+    margin: 10px;
+    width: 40%;
+    height: auto;
+    padding: 7px 10px;
+    gap: 5px;
+    display: inline-flex;
+    border: 2px solid var(--laranja);
+    border-radius: 4px;
+    color: var(--laranja);
+}
+.btn svg {
+    fill: var(--laranja);
+}
+.delet {
+    border-color: var(--vermelho);
+    color: var(--vermelho);
+}
+.delet svg {
+    fill: var(--vermelho);
+}
+.btn:hover {
+    background: var(--laranja);
+    color: white;
+}
+.delet:hover {
+    background: var(--vermelho);
+}
+.btn:hover .svg {
+    fill: white;
+}
+table tbody tr:nth-child(odd) {
+    background: #f1f1f1;
+}
+table tbody tr {
+    transition: all 200ms ease;
+}
+
+table tbody tr:hover {
+    background: var(--cor2);
+    transform: scale(1.05);
+}
+table tbody tr:hover td {
+    color: white;
+}
+.funcoes {
+    width: 300px;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+
+
+
+
+.opc {
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.addUser {
+    width: 280px;
+    height: auto;
+    padding: 10px;
+    background: white;
+    border: 2px solid var(--cor2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.4em;
+    border-radius: 4px;
+    color: var(--cor2);
+    transition: all 200ms ease;
+}
+.addUser:hover {
+    background: var(--cor2);
+    color: white;
+}
+.addUser:hover .svg {
+    fill: white;
+}
+
+
+
+
+.form-busca {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#input {
+    width: 350px;
+    height: 56px;
+    padding: 10px;
+    background: white;
+    border: 2px solid var(--cor2);
+    border-radius: 56px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.input {
+    width: 100%;
+    height: 36px;
+    border: none;
+    font-size: 1.1em;
+    outline: none;
+    color: var(--cor2);
+}
+#input .svg {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-submit {
+    width: 170px;
+    height: auto;
+    padding: 10px;
+    background: white;
+    border: 2px solid var(--cor2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.2em;
+    border-radius: 4px;
+    color: var(--cor2);
+    transition: all 200ms ease;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background: var(--cor2);
+    color: white;
+}
+
+
+
+#camada {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    opacity: 0;
+}
+#popup {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+    width: 30%;
+    height: 200px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+    opacity: 0;
+}
+#popup p {
+    font-size: 1.2em;
+    color: var(--cor2);
+}
+#btns {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#btns a {
+    width: 140px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+#btnConfirma {
+    border: 2px solid var(--vermelho);
+    color: var(--vermelho);
+
+}
+#btnConfirma svg {
+    fill: var(--vermelho);
+}
+
+#btnCancel {
+    border: 2px solid var(--cor2);
+    color: var(--cor2);
+    width: 140px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+#btnConfirma:hover {
+    background: var(--vermelho);
+    color: white;
+}
+#btnConfirma:hover svg {
+    fill: white;
+}
+
+#btnCancel:hover {
+    background: var(--cor2);
+    color: white;
+}
+#btnCancel:hover svg {
+    fill: white;
+}
+
+.info {
+    font-size: 1.5em;
+    color: var(--cor2);
+}
+.info span {
+    font-weight: bold;
+}

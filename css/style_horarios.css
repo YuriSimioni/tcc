@@ -1,0 +1,15 @@
+.container {
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    border-radius: 12px;
+    background: white;;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container img {
+    width: 100%;
+    height: auto;
+}

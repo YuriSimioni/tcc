@@ -1,0 +1,152 @@
+#container {
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: var(--cor6);
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#container h1 {
+    color: var(--cor2);
+}
+#box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    
+}
+
+.card {
+    width: 45%;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid var(--cor2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--cor6);
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-top {
+    display: flex;
+    font-size: .9em;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: var(--cor2);
+    padding: 7px 10px;
+}
+.nome-bus {
+    font-size: 1.3em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.status {
+    width: 14px;
+    height: 14px;
+    border: 2px solid var(--cor6);
+    box-shadow: 0 0 0 2px var(--cor2);
+    background: var(--cor2);
+    border-radius: 50%;
+}
+.cocent {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-content {
+    width: 100%;
+    padding: 10px;
+    color: var(--cor2);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.card-bottom {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.btn-bus {
+    padding: 5px 15px;
+    border: 1px solid var(--cor6);
+    color: var(--cor6);
+    border-radius: 20px;
+    transition: all 200ms ease;
+    font-weight: 500;
+}
+
+.bus-nome {
+    font-size: 1.3em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-bus:hover {
+    background: var(--cor6);
+    color: var(--cor2);
+}
+
+
+
+.svg-bgl {
+    fill: white;
+}
+.hora {
+    font-weight: 400;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.verde {
+    background: var(--verde);
+    box-shadow: 0 0 0 2px var(--verde);
+
+}
+.vermelho {
+    background: var(--vermelho);
+    box-shadow: 0 0 0 2px var(--vermelho);
+}
+.bord-red {
+    border-color: var(--vermelho);
+}
+.cinza {
+    background: var(--cinza);
+    box-shadow: 0 0 0 2px var(--cinza);
+}
+.status.vermelho .statusText {
+    color: var(--vermelho);
+}
+.status.verde .statusText {
+    color: var(--verde);
+}
+.status.cinza .statusText {
+    color: var(--cinza)
+}
+
+
+.borda-cinza {
+    border-color: var(--cinza);
+}
+.fundo-cinza {
+    background: var(--cinza);
+}
+.text-cinza {
+    color: var(--cinza);
+}

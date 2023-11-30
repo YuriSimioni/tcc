@@ -1,0 +1,142 @@
+/* Estilizando o Formulário */
+#formulario {
+    width: 35%;
+    height: auto;
+    padding: 20px;
+    border-radius: 4px;
+    background: var(--cor6);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    color: var(--cor2);
+}
+
+
+
+/* ------------ */
+/*   TOP FORM   */
+/* ------------ */
+/* Alinhando Itens Dentro do TOP-FORM */
+#top-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Alterando Configurações de Font do TITLE-TOP-FORM */
+#title-top-form {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+/* Alterando Tamanho e Cor do SVG-TITLE */
+.svg-title {
+    width: 34px;
+    height: 34px;
+    fill: var(--cor2);
+}
+
+
+
+/* ------------ */
+/*   MID FORM   */
+/* ------------ */
+/* Alinhando Itens Dentro do MID-FORM */
+#mid-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Fazendo a Estilização do INPUT */
+.div-input {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    gap: 5px;
+    border: 1px solid var(--cor2);
+    border-radius: 20px;
+}
+
+/* Alterando Tamanho e Cor do SVG-INPUT */
+.svg-input {
+    fill: var(--cor2);
+    width: 28px;
+    height: 28px;
+}
+
+/* Deixando o INPUT Transparente Apenas com o Texto */
+.input {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    font-size: 1em;
+    border: none;
+    color: var(--cor2);
+    font-weight: 400;
+}
+
+
+
+/* --------------- */
+/*   BOTTOM FORM   */
+/* --------------- */
+/* Alinhando Itens Dentro do BOTTOM-FORM */
+#bottom-form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Alterando Propriedades do BTN */
+#btn {
+    width: 60%;
+    border-radius: 20px;
+    border: 1px solid var(--cor2);
+    padding: 10px;
+    background: transparent;
+    font-size: 1em;
+    color: var(--cor2);
+    cursor: pointer;
+    transition: all 200ms ease;
+    font-weight: 400;
+}
+
+/* Colocando Efeito de Quando o Mouse Passar Por Cima do BTN */
+#btn:hover {
+    background: var(--cor2);
+    color: var(--cor6);
+}
+
+.verde {
+    background: var(--verde);
+    box-shadow: 0 0 0 2px var(--verde);
+
+}
+.vermelho {
+    background: var(--vermelho);
+    box-shadow: 0 0 0 2px var(--vermelho);
+}
+.cinza {
+    background: var(--cinza);
+    box-shadow: 0 0 0 2px var(--cinza);
+}
+.status.vermelho .statusText {
+    color: var(--vermelho);
+}
+.status.verde .statusText {
+    color: var(--verde);
+}
+.status.cinza .statusText {
+    color: var(--cinza)
+}

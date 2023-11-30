@@ -1,0 +1,39 @@
+/* Importando Fontes Utilizadas */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* Definindo Variáveis de Cores Para o Site */
+:root {
+    --cor1: #1d0043;
+    --cor2: #7920ec;
+    --cor3: #5400c2;
+    --cor4: #410096;
+    --cor5: #29005f;
+    --cor6: #ffffff;
+    --cor7: #e7e7e7;
+    --cor8: #e4e4e4;
+    
+    --cinza: #c9c9c9;
+    --laranja: rgb(252, 156, 67);
+    --vermelho: #ff2929;
+    --verde: #39c21e;
+}
+
+/* Impondo Estilos Globais*/
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+/* Formatando Links */
+a {
+    text-decoration: none;
+}
+
+/* Formantando Estilo do BODY */
+body {
+    background: var(--cor2);
+}
+
